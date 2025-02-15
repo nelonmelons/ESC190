@@ -121,10 +121,10 @@ int compare_weight(const void *a, const void *b){
     const struct term *term_b = (const struct term *)b;
 
     if (term_a->weight > term_b->weight){
-        return 1;
+        return -1;
     }
     else if (term_b->weight > term_a->weight){
-        return -1;
+        return 1;
     }
     else {
         return 0;
