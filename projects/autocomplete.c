@@ -104,7 +104,7 @@ int highest_match(struct term *terms, int nterms, char *substr){
             if (mid == nterms - 1 || strncmp(terms[mid+1].term, substr, strlen(substr)) != 0){
                 return mid;
             }
-            R = mid + 1;
+            L = mid + 1;
         }
         else if (strncmp(terms[mid].term, substr, strlen(substr)) > 0){
             R = mid - 1;
