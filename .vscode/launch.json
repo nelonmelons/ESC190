@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Nelson Siu/OneDrive - University of Toronto/Desktop/ESC190",
-      "program": "c:/Users/Nelson Siu/OneDrive - University of Toronto/Desktop/ESC190/build/Debug/outDebug",
+      "cwd": "c:/Users/Nelson Siu/OneDrive - University of Toronto/Desktop/ESC190/midterm_prep/2023/2023",
+      "program": "c:/Users/Nelson Siu/OneDrive - University of Toronto/Desktop/ESC190/midterm_prep/2023/2023/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
